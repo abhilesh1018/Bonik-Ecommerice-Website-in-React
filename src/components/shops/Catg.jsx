@@ -8,7 +8,7 @@ const Catg = () => {
     },
     {
       cateImg: "./images/category/cat-2.png",
-      cateName: "Samasung",
+      cateName: "Samsung",
     },
     {
       cateImg: "./images/category/cat-1.png",
@@ -20,11 +20,11 @@ const Catg = () => {
     },
     {
       cateImg: "./images/category/cat-1.png",
-      cateName: "Redimi",
+      cateName: "Xiaomi",
     },
     {
       cateImg: "./images/category/cat-2.png",
-      cateName: "Sony",
+      cateName: "iQoo",
     },
   ]
   return (
@@ -32,7 +32,6 @@ const Catg = () => {
       <div className='category'>
         <div className='chead d_flex'>
           <h1>Brands </h1>
-          <h1>Shops </h1>
         </div>
         {data.map((value, index) => {
           return (

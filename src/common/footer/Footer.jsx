@@ -7,16 +7,12 @@ const Footer = () => {
       <footer>
         <div className='container grid2'>
           <div className='box'>
-            <h1>Bonik</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
+            <h1>Shop US</h1>
+            <p>Welcome to Shop US, your one-stop destination for all your shopping needs! At Shop US, we pride ourselves on offering a diverse range of products to cater to every shopper's tastes and preferences. Whether you're searching for the latest fashion trends, tech gadgets, home essentials, or unique gifts, we have it all under one virtual roof.</p>
             <div className='icon d_flex'>
               <div className='img d_flex'>
                 <i class='fa-brands fa-google-play'></i>
                 <span>Google Play</span>
-              </div>
-              <div className='img d_flex'>
-                <i class='fa-brands fa-app-store-ios'></i>
-                <span>App Store</span>
               </div>
             </div>
           </div>
@@ -24,7 +20,6 @@ const Footer = () => {
           <div className='box'>
             <h2>About Us</h2>
             <ul>
-              <li>Careers</li>
               <li>Our Stores</li>
               <li>Our Cares</li>
               <li>Terms & Conditions</li>
@@ -35,7 +30,6 @@ const Footer = () => {
             <h2>Customer Care</h2>
             <ul>
               <li>Help Center </li>
-              <li>How to Buy </li>
               <li>Track Your Order </li>
               <li>Corporate & Bulk Purchasing </li>
               <li>Returns & Refunds </li>
@@ -44,9 +38,9 @@ const Footer = () => {
           <div className='box'>
             <h2>Contact Us</h2>
             <ul>
-              <li>70 Washington Square South, New York, NY 10012, United States </li>
-              <li>Email: uilib.help@gmail.com</li>
-              <li>Phone: +1 1123 456 780</li>
+              <li>VAKA ABHILESH</li>
+              <li>Email:ShopUS.help@gmail.com</li>
+              <li>Phone:22BCE3815</li>
             </ul>
           </div>
         </div>

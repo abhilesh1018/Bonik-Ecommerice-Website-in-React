@@ -16,7 +16,7 @@ const Categories = () => {
     },
     {
       cateImg: "./images/category/cat4.png",
-      cateName: "Home & Garden",
+      cateName: "Home Appliances",
     },
     {
       cateImg: "./images/category/cat5.png",

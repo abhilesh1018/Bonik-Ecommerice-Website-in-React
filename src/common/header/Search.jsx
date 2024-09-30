@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../components/assets/images/logo.svg"
+import logo from "../../components/assets/images/logo2.png"
 import { Link } from "react-router-dom"
 
 const Search = ({ CartItem }) => {
@@ -19,7 +19,7 @@ const Search = ({ CartItem }) => {
 
           <div className='search-box f_flex'>
             <i className='fa fa-search'></i>
-            <input type='text' placeholder='Search and hit enter...' />
+            <input type='text' placeholder='Search Your Needs...' />
             <span>All Category</span>
           </div>
 

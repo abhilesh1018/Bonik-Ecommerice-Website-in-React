@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
+import { NavLink } from 'react-router-dom';
+import MyPortfolio from "../portfolio/portfolio"
 
 const Navbar = () => {
   // Toogle Menu
@@ -17,25 +19,16 @@ const Navbar = () => {
 
           <div className='navlink'>
             <ul className={MobileMenu ? "nav-links-MobileMenu" : "link f_flex capitalize"} onClick={() => setMobileMenu(false)}>
-              {/*<ul className='link f_flex uppercase {MobileMenu ? "nav-links-MobileMenu" : "nav-links"} onClick={() => setMobileMenu(false)}'>*/}
               <li>
-                <Link to='/'>home</Link>
+                <Link to='/'>Home Page</Link>
               </li>
               <li>
-                <Link to='/pages'>pages</Link>
+                <Link to='/user'>User Account</Link>
               </li>
               <li>
-                <Link to='/user'>user account</Link>
+                <Link to='/track'>Track my order</Link>
               </li>
-              <li>
-                <Link to='/vendor'>vendor account</Link>
-              </li>
-              <li>
-                <Link to='/track'>track my order</Link>
-              </li>
-              <li>
-                <Link to='/contact'>contact</Link>
-              </li>
+              <li><NavLink to="/contact-us">Contact Us</NavLink></li>
             </ul>
 
             <button className='toggle' onClick={() => setMobileMenu(!MobileMenu)}>
